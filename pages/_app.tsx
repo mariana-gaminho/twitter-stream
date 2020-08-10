@@ -3,7 +3,7 @@ import { useStore } from '../redux/store';
 
 import '../styles/globals.css';
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }: any) {
   const store = useStore(pageProps.initialReduxState);
 
   return (
