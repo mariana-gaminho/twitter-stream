@@ -4,8 +4,6 @@ class Tweet extends Component {
   render() {
     return (
       <div className="card">
-        <h3>Documentation &rarr;</h3>
-        <p>Find in-depth information about Next.js features and API.</p>
         <style jsx>{`
           .card {
             margin: 1rem;
